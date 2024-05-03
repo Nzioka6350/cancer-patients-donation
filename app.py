@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Mar 17 15:40:29 2018
-
-@author: Kaushik
-"""
-
 from flask import Flask, render_template, request, session, redirect, url_for
 from datetime import date,time, datetime
 import sqlite3 as sql
