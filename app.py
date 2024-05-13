@@ -186,4 +186,4 @@ def profile():
 
 if __name__ == '__main__':
    app.secret_key = ".."
-   app.run(port=8080)
+   app.run(debug=False, host='0.0.0.0')
