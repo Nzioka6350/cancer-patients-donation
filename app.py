@@ -101,7 +101,6 @@ def login():
         print("Invalid Login")
         invalid=1  
   return render_template('login.html',user_exists=None, invalid = invalid, logged_out=None)
-
 @app.route('/logout')
 def logout():
   session.clear()
